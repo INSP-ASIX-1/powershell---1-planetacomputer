@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "01a",
-      "setup": "pwsh -Command \"(Get-Variable PSVersionTable -ValueOnly).PSVersion",
-      "run": "pwsh -Command \"(Get-Variable PSVersionTable -ValueOnly).PSVersion",
+      "setup": "pwsh -Command \"(Get-Variable PSVersionTable -ValueOnly).PSVersion\"",
+      "run": "pwsh -Command \"(Get-Variable PSVersionTable -ValueOnly).PSVersion\"",
       "input": "",
       "output": "7.2.0",
       "comparison": "included",
