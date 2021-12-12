@@ -5,7 +5,7 @@
       "setup": "pwsh -Command \"(Get-Variable PSVersionTable -ValueOnly).PSVersion\"",
       "run": "pwsh -Command \"Test-Path 01.ps1\"",
       "input": "",
-      "output": "true",
+      "output": "True",
       "comparison": "included",
       "timeout": 1,
       "points": 1
