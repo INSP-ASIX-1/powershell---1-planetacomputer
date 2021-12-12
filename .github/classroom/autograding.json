@@ -3,9 +3,19 @@
     {
       "name": "01",
       "setup": "pwsh",
-      "run": "Test-Path 01.ps1 | Should -Be $true",
+      "run": "Test-Path 01.ps1",
       "input": "",
       "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "01a",
+      "setup": "pwsh",
+      "run": "Test-Path 01.ps1",
+      "input": "",
+      "output": "true",
       "comparison": "included",
       "timeout": 1,
       "points": 1
