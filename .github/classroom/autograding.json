@@ -3,9 +3,9 @@
     {
       "name": "01a",
       "setup": "pwsh -Command \"(Get-Variable PSVersionTable -ValueOnly).PSVersion\"",
-      "run": "pwsh -Command \"(Get-Variable PSVersionTable -ValueOnly).PSVersion\"",
+      "run": "pwsh -Command \"Test-Path 01.ps1\"",
       "input": "",
-      "output": "7.2.0",
+      "output": "true",
       "comparison": "included",
       "timeout": 1,
       "points": 1
