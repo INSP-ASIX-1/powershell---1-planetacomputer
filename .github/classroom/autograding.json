@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "01a",
+      "name": "01",
       "setup": "pwsh -Command \"(Get-Variable PSVersionTable -ValueOnly).PSVersion\"",
       "run": "pwsh -Command \"Test-Path 01.ps1\"",
       "input": "",
