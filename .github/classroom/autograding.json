@@ -3,7 +3,7 @@
     {
       "name": "01a",
       "setup": "pwsh",
-      "run": "Test-Path",
+      "run": "pwsh Test-Path",
       "input": "01.ps1",
       "output": "true",
       "comparison": "included",
