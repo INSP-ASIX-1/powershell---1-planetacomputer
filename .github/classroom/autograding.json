@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "pwsh",
+      "run": "Test-Path 01.ps1 | Should -Be $true",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
