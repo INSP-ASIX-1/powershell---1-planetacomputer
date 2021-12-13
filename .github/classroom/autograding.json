@@ -2,10 +2,10 @@
   "tests": [
     {
       "name": "02",
-      "setup": "pwsh -Command \"$dia = (Get-Date).DayOfYear\"",
+      "setup": "",
       "run": "pwsh 02.ps1",
       "input": "",
-      "output": "Write-Output $dia",
+      "output": "Write-Output (Get-Date).DayOfYear",
       "comparison": "included",
       "timeout": 1,
       "points": 1
