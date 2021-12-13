@@ -2,10 +2,10 @@
   "tests": [
     {
       "name": "02",
-      "setup": "a=`pwsh -c \"Write-Output (Get-Date).DayOfYear\"`",
-      "run": "pwsh 02.ps1",
+      "setup": "export a; a=`pwsh -c \"Write-Output (Get-Date).DayOfYear\"`",
+      "run": "pwsh 02.ps1;a=`pwsh -c \"Write-Output (Get-Date).DayOfYear\"`",
       "input": "",
-      "output": "$a",
+      "output": "347",
       "comparison": "included",
       "timeout": 1,
       "points": 1
