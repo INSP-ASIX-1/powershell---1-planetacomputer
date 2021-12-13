@@ -12,8 +12,8 @@
     },
     {
       "name": "03",
-      "setup": "a=`pwsh -c \"Test-Path sdfsdf.ps1\"`; echo $a",
-      "run": "if [ \"$a\" = False ]; then exit 1; fi ; exit 1;",
+      "setup": "",
+      "run": "a=`pwsh -c \"Test-Path sdfsdf.ps1\"`; echo $a; if [ \"$a\" = False ]; then exit 1; fi ; exit 1;",
       "input": "",
       "output": "",
       "comparison": "included",
