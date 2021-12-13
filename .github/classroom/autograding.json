@@ -13,7 +13,7 @@
     {
       "name": "03",
       "setup": "",
-      "run": "pwsh -c \"Write-Output (Get-Date).DayOfYear\"",
+      "run": "pwsh -c \"Test-Path dsfasdfa.ps1\"",
       "input": "",
       "output": "",
       "comparison": "included",
