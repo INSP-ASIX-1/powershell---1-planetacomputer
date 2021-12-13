@@ -13,7 +13,7 @@
     {
       "name": "03",
       "setup": "a=`pwsh -c \"Test-Path sdfsdf.ps1\"`",
-      "run": "if [ \"$a\" = False ]; then return 1; fi ;",
+      "run": "if [ \"$a\" = False ]; then exit 1; fi ;",
       "input": "",
       "output": "",
       "comparison": "included",
