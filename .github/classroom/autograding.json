@@ -12,7 +12,7 @@
     },
     {
       "name": "03",
-      "setup": "a=`pwsh -c \"Test-Path sdfsdf.ps1\"`",
+      "setup": "a=`pwsh -c \"Test-Path sdfsdf.ps1\"`; echo $a",
       "run": "if [ \"$a\" = False ]; then exit 1; fi ;",
       "input": "",
       "output": "",
