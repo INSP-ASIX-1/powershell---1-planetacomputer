@@ -5,7 +5,7 @@
       "setup": "a=`pwsh -c \"Write-Output (Get-Date).DayOfYear\"`",
       "run": "pwsh 02.ps1",
       "input": "",
-      "output": "echo $a",
+      "output": "$a",
       "comparison": "included",
       "timeout": 1,
       "points": 1
