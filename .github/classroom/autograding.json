@@ -12,7 +12,7 @@
     },
     {
       "name": "03",
-      "setup": "$a=`pwsh -c \"Test-Path 01.ps1\"`",
+      "setup": "$a=`pwsh -c \"Test-Path 02.ps1\"`",
       "run": "if [ \"$a\" = False ]; then exit 1; fi ;",
       "input": "",
       "output": "",
