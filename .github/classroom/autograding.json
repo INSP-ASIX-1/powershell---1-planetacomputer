@@ -29,6 +29,16 @@
       "comparison": "included",
       "timeout": 1,
       "points": 1
+    },
+    {
+      "name": "04 Crea el fitxer test.txt",
+      "setup": "rm test.txt; pwsh 04.ps1;",
+      "run": "a=`pwsh -c \"Test-Path test.txt\"`;if [ \"$a\" = False ]; then exit 1; fi ;",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
     }
   ]
 }
