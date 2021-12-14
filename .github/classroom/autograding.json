@@ -39,6 +39,16 @@
       "comparison": "included",
       "timeout": 1,
       "points": 1
+    },
+    {
+      "name": "04 Id process bash",
+      "setup": "wget https://geronimost.alwaysdata.net/files/05-c.sh",
+      "run": "/bin/bash 05-c.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
     }
   ]
 }
