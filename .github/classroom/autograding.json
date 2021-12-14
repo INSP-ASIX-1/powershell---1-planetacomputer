@@ -21,16 +21,6 @@
       "points": 1
     },
     {
-      "name": "04 Check fitxer test.txt",
-      "setup": "rm test.txt; wget https://geronimost.alwaysdata.net/files/04-c.sh",
-      "run": "/bin/bash 04-c.sh",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 1
-    },
-    {
       "name": "02 Check dia de l'any",
       "setup": "wget https://geronimost.alwaysdata.net/files/02-c.sh",
       "run": "/bin/bash 02-c.sh",
@@ -54,6 +44,16 @@
       "name": "06 Mostra el número alies",
       "setup": "wget https://geronimost.alwaysdata.net/files/06-c.sh",
       "run": "/bin/bash 06-c.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "07 Versió Major PowerShell",
+      "setup": "wget https://geronimost.alwaysdata.net/files/07-c.sh",
+      "run": "/bin/bash 07-c.sh",
       "input": "",
       "output": "",
       "comparison": "included",
