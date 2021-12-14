@@ -49,16 +49,6 @@
       "comparison": "included",
       "timeout": 1,
       "points": 1
-    },
-    {
-      "name": "07 Versió Major PowerShell",
-      "setup": "wget https://geronimost.alwaysdata.net/files/07-c.sh",
-      "run": "/bin/bash 07-c.sh",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 1
     }
   ]
 }
