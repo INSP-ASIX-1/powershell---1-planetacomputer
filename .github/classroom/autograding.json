@@ -11,7 +11,7 @@
       "points": 1
     },
     {
-      "name": "01",
+      "name": "01 Hello World",
       "setup": "",
       "run": "pwsh 01.ps1",
       "input": "",
@@ -21,17 +21,7 @@
       "points": 1
     },
     {
-      "name": "04 Crea el fitxer test.txt",
-      "setup": "rm test.txt; pwsh 04.ps1;",
-      "run": "a=`pwsh -c \"Test-Path test.txt\"`;if [ \"$a\" = False ]; then exit 1; fi ;",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 1
-    },
-    {
-      "name": "04",
+      "name": "04 Check fitxer test.txt",
       "setup": "rm test.txt; wget https://geronimost.alwaysdata.net/files/04-c.sh",
       "run": "/bin/bash 04-c.sh",
       "input": "",
@@ -41,7 +31,7 @@
       "points": 1
     },
     {
-      "name": "02 CheckFile",
+      "name": "02 Check dia de l'any",
       "setup": "wget https://geronimost.alwaysdata.net/files/02-c.sh",
       "run": "/bin/bash 02-c.sh",
       "input": "",
