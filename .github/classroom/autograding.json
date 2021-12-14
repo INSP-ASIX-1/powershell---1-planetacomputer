@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "03",
-      "setup": "",
-      "run": "a=`pwsh -c \"Test-Path 01.ps1\"`; if [ \"$a\" = False ]; then exit 1; fi ;",
+      "name": "03 Check directory",
+      "setup": "rm -rf myTest; wget https://geronimost.alwaysdata.net/files/03-c.sh",
+      "run": "/bin/bash 03-c.sh",
       "input": "",
       "output": "",
       "comparison": "included",
