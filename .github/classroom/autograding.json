@@ -41,9 +41,19 @@
       "points": 1
     },
     {
-      "name": "04 Id process bash",
+      "name": "05 Id process bash",
       "setup": "wget https://geronimost.alwaysdata.net/files/05-c.sh",
       "run": "/bin/bash 05-c.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "06 Mostra el número alies",
+      "setup": "wget https://geronimost.alwaysdata.net/files/06-c.sh",
+      "run": "/bin/bash 06-c.sh",
       "input": "",
       "output": "",
       "comparison": "included",
