@@ -59,6 +59,16 @@
       "comparison": "included",
       "timeout": 1,
       "points": 1
+    },
+    {
+      "name": "08 Gets the execution policies for the current session",
+      "setup": "wget https://geronimost.alwaysdata.net/files/08-c.sh",
+      "run": "/bin/bash 08-c.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
     }
   ]
 }
