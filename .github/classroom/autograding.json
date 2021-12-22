@@ -41,16 +41,6 @@
       "points": 1
     },
     {
-      "name": "06 Mostra el número alies",
-      "setup": "wget https://geronimost.alwaysdata.net/files/06-c.sh",
-      "run": "/bin/bash 06-c.sh",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 1
-    },
-    {
       "name": "07 Número de comandes que comencen per Remove",
       "setup": "wget https://geronimost.alwaysdata.net/files/07-c.sh",
       "run": "/bin/bash 07-c.sh",
@@ -64,6 +54,16 @@
       "name": "08 Gets the execution policies for the current session",
       "setup": "wget https://geronimost.alwaysdata.net/files/08-c.sh",
       "run": "/bin/bash 08-c.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "09 si dos numeros passats per parametre a l'script son iguals mostra OK. Si son diferents mostra KO",
+      "setup": "wget https://geronimost.alwaysdata.net/files/09-c.sh",
+      "run": "/bin/bash 09-c.sh",
       "input": "",
       "output": "",
       "comparison": "included",
